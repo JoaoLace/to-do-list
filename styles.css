@@ -1,0 +1,40 @@
+body{
+    align-items: center;
+    text-align: left;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1749058101527797373/800C0465D8BD4E92912AD6526890042EF13F807E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.add{
+    width: 80px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+:hover .add{
+    cursor: pointer;
+}
+button {
+    width: 40px;
+    height: 40px ;
+    display: inline;
+    margin: 10px;
+
+}
+.delete{
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+}
+:hover .delete{
+    cursor: pointer;
+}
+p {
+    display: inline;
+    padding-top: -40px;
+    font-size: 30px;
+}
+h1{
+    font-size: 60px;
+}
